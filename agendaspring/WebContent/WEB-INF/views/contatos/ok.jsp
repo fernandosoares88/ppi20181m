@@ -7,6 +7,6 @@
 <title>Insert title here</title>
 </head>
 <body>
-<h1>Minha aplicação deu CERTO!</h1>
+<h1>Contato inserido com sucesso!</h1>
 </body>
 </html>

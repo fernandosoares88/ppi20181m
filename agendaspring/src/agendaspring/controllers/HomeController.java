@@ -9,7 +9,7 @@ public class HomeController {
 	@RequestMapping("/")
 	public String home() {
 		System.out.println("Chamou o meu Controller");
-		return "home.jsp";
+		return "home";
 	}
 	
 }
