@@ -10,7 +10,7 @@
 <title>Insert title here</title>
 </head>
 <body>
-
+	<c:import url="../menu.jsp"></c:import>
 	<h1>Lista de contatos:</h1>
 
 	<table border="2">
@@ -29,6 +29,7 @@
 					<td>${contato.email }</td>
 					<td>${contato.endereco }</td>
 					<td>${contato.dataNascimento.time }</td>
+					<td><a href="/agendaspring/contatos/remover?id=${contato.id }">Remover</a></td>
 				</tr>
 			</c:forEach>
 
